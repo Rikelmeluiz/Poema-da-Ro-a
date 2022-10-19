@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(18, 94, 94);
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header > p {
+    padding: buttom 50px;
+}
+header a, footer a {
+    color: rgb(204, 0, 255);
+    text-decoration:double;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+
+}
+  
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section > p {
+  
+    padding-bottom: 2em;
+}
+
+section.normal {
+ 
+    background-color: white;
+    color: black;
+}
+section.imagem {
+  background-color: rgb(51,51,51);
+  color: white;
+  box-shadow: inset 6px 6px 13px 0px rgb(15, 15, 15);
+  background-attachment: fixed;
+}
+
+section.imagem > p {
+    text-shadow: 2px 2px 0px black;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0,0,253);
+}
+
+section#img01 {
+    background-image: url(https://th.bing.com/th/id/R.18a93153f687c895534f765d1e843bbb?rik=qoXRjGoYZk3aEg&pid=ImgRaw&r=0);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02 {
+   background-image: url(https://blog.escolavereda.com.br/wp-content/uploads/2020/10/literatura_de_cordel-780x450.png);
+   background-position: right center;
+   background-size: cover;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
